@@ -23,7 +23,7 @@ Then characters are sorted Tag > Power
 
 - This isn't a non coder friendly solution
 
-Example roster:
+Example roster based on above tag manipulation:
 
 ```text
 Char count: 194
