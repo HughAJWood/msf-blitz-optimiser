@@ -1,9 +1,13 @@
 ﻿using MsfBlitzOptimiser;
 
-var filename = $"{Directory.GetCurrentDirectory()}\\RosterExport.json";
+var filename = $"{Directory.GetCurrentDirectory()}\\RosterExport_gf.json";
 var roster = new Roster();
 roster.ParseRoster(filename);
 
+RemoveCharTags(roster, "Sersi");
+RemoveCharTags(roster, "Ikaris");
+AddTagToChar(roster, "Sersi", "Bio");
+AddTagToChar(roster, "Ikaris", "Bio");
 AddTagToChar(roster, "Thanos", "BlackOrder");
 AddTagToChar(roster, "Namor", "XFactor");
 AddTagToChar(roster, "She-Hulk", "FantasticFour");
@@ -53,6 +57,7 @@ static void AddCharactersToBlitzLIst(Roster roster, Dictionary<string, List<Char
 
         do
         {
+            if (!blitzList.ContainsKey(tag)) break;
             if (blitzList[tag].Count() > 4) break;
             var nextAvailableCharacter = charactersWithTrait.FirstOrDefault(ct => !added.Exists(c => c == ct.name));
             if (nextAvailableCharacter == null) break;
@@ -130,4 +135,12 @@ static void AddTagToChar(Roster roster, string name, string tag)
         .First(c => c.name == name)
         .traits
         .Add(new Trait { id = tag, name = tag.ToUpper() });
+}
+
+static void RemoveCharTags(Roster roster, string name)
+{
+    roster.AllChars.data
+        .First(c => c.name == name)
+        .traits
+        .Clear();
 }
