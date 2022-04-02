@@ -6,7 +6,7 @@ AllChars is from the all char API call in MSG.gg
 
 Customise tags at the top of Program.cs
 
-...
+```c#
 // Force Sersi and Ikarus to be in the bio team
 RemoveCharTags(roster, "Sersi");
 RemoveCharTags(roster, "Ikaris");
@@ -17,7 +17,7 @@ AddTagToChar(roster, "Thanos", "BlackOrder");
 AddTagToChar(roster, "Namor", "XFactor");
 AddTagToChar(roster, "She-Hulk", "FantasticFour");
 AddTagToChar(roster, "Scarlet Witch", "DarkHunter");
-...
+```
 
 Then characters are sorted Tag > Power
 
