@@ -23,7 +23,7 @@ AddTagToChar(roster, "Ikaris", "Bio");
 AddTagToChar(roster, "Thanos", "BlackOrder");
 AddTagToChar(roster, "Namor", "XFactor");
 AddTagToChar(roster, "She-Hulk", "FantasticFour");
-AddTagToChar(roster, "Scarlet Witch", "DarkHunter");
+//AddTagToChar(roster, "Scarlet Witch", "DarkHunter");
 
 var charCount = roster
     .AllChars

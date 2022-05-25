@@ -3,13 +3,14 @@ namespace MsfBlitzOptimiser;
 internal static class CharTags
 {
     internal static List<string> PriorityOrder = new List<string>() {
+        "Darkhold",
         "PowerArmor",
         "Horseman",
         "WeaponX",
         "InfinityWatch",
         "WebWarrior",
         "YoungAvenger",
-        "Darkhold",
+        "AForce",
         "Inhuman",
         "Symbiote",
         "Shadowland",
