@@ -2,13 +2,14 @@ namespace MsfBlitzOptimiser;
 
 internal static class CharTags
 {
-    internal static string[] PriorityOrder = new[] {
+    internal static List<string> PriorityOrder = new List<string>() {
         "PowerArmor",
         "Horseman",
         "WeaponX",
         "InfinityWatch",
         "WebWarrior",
         "YoungAvenger",
+        "Darkhold",
         "Inhuman",
         "Symbiote",
         "Shadowland",

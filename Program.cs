@@ -1,8 +1,20 @@
 ﻿using MsfBlitzOptimiser;
 
-var filename = $"{Directory.GetCurrentDirectory()}\\RosterExport_gf.json";
+var filename = $"{Directory.GetCurrentDirectory()}\\RosterExport_may_2022.json";
 var roster = new Roster();
 roster.ParseRoster(filename);
+
+// AddCustomTag("RedSkull");
+// RemoveCharTags(roster, "Red Skull");
+// RemoveCharTags(roster, "Hydra Rifle Trooper");
+// RemoveCharTags(roster, "Hydra Armored Guard");
+// RemoveCharTags(roster, "Hydra Scientist");
+// RemoveCharTags(roster, "Hydra Sniper");
+// AddTagToChar(roster, "Red Skull", "RedSkull");
+// AddTagToChar(roster, "Hydra Rifle Trooper", "RedSkull");
+// AddTagToChar(roster, "Hydra Armored Guard", "RedSkull");
+// AddTagToChar(roster, "Hydra Scientist", "RedSkull");
+// AddTagToChar(roster, "Hydra Sniper", "RedSkull");
 
 RemoveCharTags(roster, "Sersi");
 RemoveCharTags(roster, "Ikaris");
@@ -13,7 +25,11 @@ AddTagToChar(roster, "Namor", "XFactor");
 AddTagToChar(roster, "She-Hulk", "FantasticFour");
 AddTagToChar(roster, "Scarlet Witch", "DarkHunter");
 
-var charCount = roster.AllChars.data.Count(c => c.power > 0);
+var charCount = roster
+    .AllChars
+    .data
+    .Count(c => c.power > 0);
+
 Console.WriteLine($"Char count: {charCount}");
 
 var tags = roster.AllChars.data
@@ -135,6 +151,8 @@ static void AddTagToChar(Roster roster, string name, string tag)
         .First(c => c.name == name)
         .traits
         .Add(new Trait { id = tag, name = tag.ToUpper() });
+    var t = roster.AllChars.data
+        .First(c => c.name == name);
 }
 
 static void RemoveCharTags(Roster roster, string name)
@@ -143,4 +161,9 @@ static void RemoveCharTags(Roster roster, string name)
         .First(c => c.name == name)
         .traits
         .Clear();
+}
+
+static void AddCustomTag(string tag)
+{
+    CharTags.PriorityOrder.Add(tag);
 }
