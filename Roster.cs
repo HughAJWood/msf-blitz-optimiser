@@ -33,7 +33,7 @@ internal class Roster
 
         foreach (var key in RosterList.Keys)
         {
-            AllChars.data.First(c => c.id == key).power = RosterList[key].Power;
+            AllChars.data.First(c => c.id == key).power = RosterList[key].power;
         }
     }
 }
