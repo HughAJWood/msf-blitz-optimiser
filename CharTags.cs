@@ -4,8 +4,8 @@ internal static class CharTags
 {
     internal static List<string> PriorityOrder = new List<string>() {
         "Darkhold",
+        "Unlimited",
         "PowerArmor",
-        "Horseman",
         "WeaponX",
         "InfinityWatch",
         "WebWarrior",
@@ -68,5 +68,6 @@ internal static class CharTags
         "Defender",
         "Eternal",
         "Xmen",
+        "Horseman",
     };
 }

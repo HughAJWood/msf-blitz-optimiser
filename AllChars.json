@@ -1,6 +1,32 @@
 {
   "data": [
     {
+      "id": "Abomination",
+      "mission": false,
+      "name": "Abomination",
+      "description": "Transformed into a hideous monster by Gamma radiation, the Abomination uses his strength and spines to tear into enemies and shred their defenses.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Abomination_d466494d.png",
+      "starItems": [
+        { "id": "SHARD_ABOMINATION" },
+        { "id": "RS_ABOMINATION_1" },
+        { "id": "RS_ABOMINATION_2" },
+        { "id": "RS_ABOMINATION_3" },
+        { "id": "RS_ABOMINATION_4" },
+        { "id": "RS_ABOMINATION_5" },
+        { "id": "RS_ABOMINATION_6" },
+        { "id": "RS_ABOMINATION_7" }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        { "id": "Villain", "name": "VILLAIN" },
+        { "id": "Global", "name": "GLOBAL" },
+        { "id": "Bio", "name": "BIO" },
+        { "id": "Brawler", "name": "BRAWLER" },
+        { "id": "Gamma", "name": "GAMMA" }
+      ]
+    },
+    {
       "id": "AdamWarlock",
       "mission": false,
       "name": "Adam Warlock",
@@ -190,6 +216,32 @@
       ]
     },
     {
+      "id": "AmadeusCho",
+      "mission": false,
+      "name": "Brawn",
+      "description": "Brawn exercises his brilliant mind to control his Hulk persona, supporting his Gamma allies to keep them in the fight.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_AmadeusCho_0c0fc9e1.png",
+      "starItems": [
+        { "id": "SHARD_AMADEUSCHO" },
+        { "id": "RS_AMADEUSCHO_1" },
+        { "id": "RS_AMADEUSCHO_2" },
+        { "id": "RS_AMADEUSCHO_3" },
+        { "id": "RS_AMADEUSCHO_4" },
+        { "id": "RS_AMADEUSCHO_5" },
+        { "id": "RS_AMADEUSCHO_6" },
+        { "id": "RS_AMADEUSCHO_7" }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        { "id": "Hero", "name": "HERO" },
+        { "id": "Global", "name": "GLOBAL" },
+        { "id": "Bio", "name": "BIO" },
+        { "id": "Support", "name": "SUPPORT" },
+        { "id": "Gamma", "name": "GAMMA" }
+      ]
+    },
+    {
       "id": "AmericaChavez",
       "mission": false,
       "name": "America Chavez",
@@ -216,7 +268,8 @@
       ],
       "invisibleTraits": [{ "id": "Avenger", "name": "AVENGER" }],
       "eventTraits": [
-        { "id": "PartyAnimal", "isEvent": true, "name": "PARTY ANIMAL" }
+        { "id": "PartyAnimal", "isEvent": true, "name": "PARTY ANIMAL" },
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -854,7 +907,10 @@
         { "id": "Protector", "name": "PROTECTOR" },
         { "id": "BlackOrder", "name": "BLACK ORDER" }
       ],
-      "eventTraits": [{ "id": "Spades", "isEvent": true, "name": "SPADES" }]
+      "eventTraits": [
+        { "id": "Spades", "isEvent": true, "name": "SPADES" },
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
+      ]
     },
     {
       "id": "Cyclops",
@@ -1027,6 +1083,36 @@
       "eventTraits": [
         { "id": "Diamonds", "isEvent": true, "name": "DIAMONDS" },
         { "id": "PartyAnimal", "isEvent": true, "name": "PARTY ANIMAL" }
+      ]
+    },
+    {
+      "id": "Deathlok",
+      "mission": false,
+      "name": "Deathlok",
+      "description": "A soldier reanimated with cybernetic technology, Deathlok eviscerates the enemy team with debilitating blasts and boosts Bionic Avenger allies.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Deathlok_f44f9ffd.png",
+      "starItems": [
+        { "id": "SHARD_DEATHLOK" },
+        { "id": "RS_DEATHLOK_1" },
+        { "id": "RS_DEATHLOK_2" },
+        { "id": "RS_DEATHLOK_3" },
+        { "id": "RS_DEATHLOK_4" },
+        { "id": "RS_DEATHLOK_5" },
+        { "id": "RS_DEATHLOK_6" },
+        { "id": "RS_DEATHLOK_7" }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        { "id": "Hero", "name": "HERO" },
+        { "id": "Global", "name": "GLOBAL" },
+        { "id": "Tech", "name": "TECH" },
+        { "id": "Blaster", "name": "BLASTER" },
+        { "id": "BionicAvenger", "name": "BIONIC AVENGER" }
+      ],
+      "invisibleTraits": [{ "id": "Avenger", "name": "AVENGER" }],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -1554,7 +1640,10 @@
         { "id": "GotG", "name": "GUARDIAN" },
         { "id": "InfinityWatch", "name": "INFINITY WATCH" }
       ],
-      "eventTraits": [{ "id": "Diamonds", "isEvent": true, "name": "DIAMONDS" }]
+      "eventTraits": [
+        { "id": "Diamonds", "isEvent": true, "name": "DIAMONDS" },
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
+      ]
     },
     {
       "id": "Ghost",
@@ -2034,6 +2123,9 @@
         { "id": "Mystic", "name": "MYSTIC" },
         { "id": "Brawler", "name": "BRAWLER" },
         { "id": "Asgard", "name": "ASGARDIAN" }
+      ],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -2086,12 +2178,41 @@
         { "id": "Global", "name": "GLOBAL" },
         { "id": "Bio", "name": "BIO" },
         { "id": "Protector", "name": "PROTECTOR" },
-        { "id": "Wave1Avenger", "name": "WAVE I - AVENGER" }
+        { "id": "Wave1Avenger", "name": "WAVE I - AVENGER" },
+        { "id": "Gamma", "name": "GAMMA" }
       ],
       "invisibleTraits": [
         { "id": "Avenger", "name": "AVENGER" },
-        { "id": "Wave1", "alwaysInvisible": true }
+        { "id": "Wave1", "alwaysInvisible": true },
+        { "id": "Chargeable", "alwaysInvisible": true }
       ]
+    },
+    {
+      "id": "Hulkbuster",
+      "mission": false,
+      "name": "Hulkbuster",
+      "description": "One of Tony Stark's incredible Iron Man suits, the Hulkbuster is a colossal guardian for its team, generating barriers and drawing enemy attacks.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_Hulkbuster_8235ee50.png",
+      "starItems": [
+        { "id": "SHARD_HULKBUSTER" },
+        { "id": "RS_HULKBUSTER_1" },
+        { "id": "RS_HULKBUSTER_2" },
+        { "id": "RS_HULKBUSTER_3" },
+        { "id": "RS_HULKBUSTER_4" },
+        { "id": "RS_HULKBUSTER_5" },
+        { "id": "RS_HULKBUSTER_6" },
+        { "id": "RS_HULKBUSTER_7" }
+      ],
+      "status": "playable",
+      "unlockStars": 3,
+      "traits": [
+        { "id": "Hero", "name": "HERO" },
+        { "id": "Global", "name": "GLOBAL" },
+        { "id": "Tech", "name": "TECH" },
+        { "id": "Protector", "name": "PROTECTOR" },
+        { "id": "BionicAvenger", "name": "BIONIC AVENGER" }
+      ],
+      "invisibleTraits": [{ "id": "Avenger", "name": "AVENGER" }]
     },
     {
       "id": "HumanTorch",
@@ -2450,6 +2571,9 @@
         { "id": "Tech", "name": "TECH" },
         { "id": "Blaster", "name": "BLASTER" },
         { "id": "PowerArmor", "name": "POWER ARMOR" }
+      ],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -2477,11 +2601,15 @@
         { "id": "Blaster", "name": "BLASTER" },
         { "id": "Wave1Avenger", "name": "WAVE I - AVENGER" },
         { "id": "PowerArmor", "name": "POWER ARMOR" },
+        { "id": "BionicAvenger", "name": "BIONIC AVENGER" },
         { "id": "Legendary", "name": "LEGENDARY" }
       ],
       "invisibleTraits": [
         { "id": "Avenger", "name": "AVENGER" },
         { "id": "Wave1", "alwaysInvisible": true }
+      ],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -2511,7 +2639,8 @@
       ],
       "invisibleTraits": [{ "id": "Chargeable", "alwaysInvisible": true }],
       "eventTraits": [
-        { "id": "PartyAnimal", "isEvent": true, "name": "PARTY ANIMAL" }
+        { "id": "PartyAnimal", "isEvent": true, "name": "PARTY ANIMAL" },
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -2600,7 +2729,10 @@
         { "id": "Protector", "name": "PROTECTOR" },
         { "id": "Brotherhood", "name": "BROTHERHOOD" }
       ],
-      "invisibleTraits": [{ "id": "Chargeable", "alwaysInvisible": true }]
+      "invisibleTraits": [{ "id": "Chargeable", "alwaysInvisible": true }],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
+      ]
     },
     {
       "id": "Karnak",
@@ -2972,6 +3104,9 @@
         { "id": "Tech", "name": "TECH" },
         { "id": "Brawler", "name": "BRAWLER" },
         { "id": "WeaponX", "name": "WEAPON X" }
+      ],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -3182,7 +3317,10 @@
         { "id": "Brotherhood", "name": "BROTHERHOOD" },
         { "id": "Legendary", "name": "LEGENDARY" }
       ],
-      "eventTraits": [{ "id": "Clubs", "isEvent": true, "name": "CLUBS" }]
+      "eventTraits": [
+        { "id": "Clubs", "isEvent": true, "name": "CLUBS" },
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
+      ]
     },
     {
       "id": "Mantis",
@@ -3560,6 +3698,7 @@
         { "id": "RS_MORGANLEFAY_6" },
         { "id": "RS_MORGANLEFAY_7" }
       ],
+      "costumes": { "1": { "id": "COSTUME_MORGANLEFAY_1" } },
       "status": "playable",
       "unlockStars": 3,
       "traits": [
@@ -3653,7 +3792,10 @@
         { "id": "Inhuman", "name": "INHUMAN" },
         { "id": "YoungAvenger", "name": "YOUNG AVENGER" }
       ],
-      "invisibleTraits": [{ "id": "Avenger", "name": "AVENGER" }]
+      "invisibleTraits": [{ "id": "Avenger", "name": "AVENGER" }],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
+      ]
     },
     {
       "id": "MultipleMan",
@@ -3830,7 +3972,10 @@
         { "id": "Brawler", "name": "BRAWLER" },
         { "id": "InfinityWatch", "name": "INFINITY WATCH" }
       ],
-      "eventTraits": [{ "id": "Diamonds", "isEvent": true, "name": "DIAMONDS" }]
+      "eventTraits": [
+        { "id": "Diamonds", "isEvent": true, "name": "DIAMONDS" },
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
+      ]
     },
     {
       "id": "Negasonic",
@@ -4984,13 +5129,15 @@
         { "id": "RS_SHEHULK_6" },
         { "id": "RS_SHEHULK_7" }
       ],
+      "costumes": { "1": { "id": "COSTUME_SHEHULK_1" } },
       "status": "playable",
       "unlockStars": 3,
       "traits": [
         { "id": "Hero", "name": "HERO" },
         { "id": "City", "name": "CITY" },
         { "id": "Bio", "name": "BIO" },
-        { "id": "Protector", "name": "PROTECTOR" }
+        { "id": "Protector", "name": "PROTECTOR" },
+        { "id": "Gamma", "name": "GAMMA" }
       ],
       "invisibleTraits": [{ "id": "Chargeable", "alwaysInvisible": true }],
       "eventTraits": [
@@ -5281,6 +5428,9 @@
         { "id": "Mutant", "name": "MUTANT" },
         { "id": "Protector", "name": "PROTECTOR" },
         { "id": "WeaponX", "name": "WEAPON X" }
+      ],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -5484,7 +5634,10 @@
         { "id": "PymTech", "name": "PYM TECH" }
       ],
       "invisibleTraits": [{ "id": "Chargeable", "alwaysInvisible": true }],
-      "eventTraits": [{ "id": "Hearts", "isEvent": true, "name": "HEARTS" }]
+      "eventTraits": [
+        { "id": "Hearts", "isEvent": true, "name": "HEARTS" },
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
+      ]
     },
     {
       "id": "Storm",
@@ -5764,7 +5917,10 @@
         { "id": "Mystic", "name": "MYSTIC" },
         { "id": "Protector", "name": "PROTECTOR" }
       ],
-      "eventTraits": [{ "id": "Spades", "isEvent": true, "name": "SPADES" }]
+      "eventTraits": [
+        { "id": "Spades", "isEvent": true, "name": "SPADES" },
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
+      ]
     },
     {
       "id": "Thing",
@@ -6080,6 +6236,7 @@
         { "id": "RS_VALKYRIE_6" },
         { "id": "RS_VALKYRIE_7" }
       ],
+      "costumes": { "1": { "id": "COSTUME_VALKYRIE_1" } },
       "status": "playable",
       "unlockStars": 2,
       "traits": [
@@ -6091,7 +6248,8 @@
       ],
       "invisibleTraits": [{ "id": "Chargeable", "alwaysInvisible": true }],
       "eventTraits": [
-        { "id": "PartyAnimal", "isEvent": true, "name": "PARTY ANIMAL" }
+        { "id": "PartyAnimal", "isEvent": true, "name": "PARTY ANIMAL" },
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -6146,7 +6304,41 @@
         { "id": "Global", "name": "GLOBAL" },
         { "id": "Tech", "name": "TECH" },
         { "id": "Controller", "name": "CONTROLLER" },
-        { "id": "Avenger", "name": "AVENGER" }
+        { "id": "BionicAvenger", "name": "BIONIC AVENGER" }
+      ],
+      "invisibleTraits": [{ "id": "Avenger", "name": "AVENGER" }],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
+      ]
+    },
+    {
+      "id": "VivVision",
+      "mission": false,
+      "name": "Viv Vision",
+      "description": "Vision's synthetically created daughter, Viv bolsters her allied Bionic Avengers by generating Ability Energy and healing them so they can press the attack.",
+      "portrait": "https://assets.marvelstrikeforce.com/imgs/Portrait_VivVision_5f0a83c3.png",
+      "starItems": [
+        { "id": "SHARD_VIVVISION" },
+        { "id": "RS_VIVVISION_1" },
+        { "id": "RS_VIVVISION_2" },
+        { "id": "RS_VIVVISION_3" },
+        { "id": "RS_VIVVISION_4" },
+        { "id": "RS_VIVVISION_5" },
+        { "id": "RS_VIVVISION_6" },
+        { "id": "RS_VIVVISION_7" }
+      ],
+      "status": "playable",
+      "unlockStars": 2,
+      "traits": [
+        { "id": "Hero", "name": "HERO" },
+        { "id": "Global", "name": "GLOBAL" },
+        { "id": "Tech", "name": "TECH" },
+        { "id": "Support", "name": "SUPPORT" },
+        { "id": "BionicAvenger", "name": "BIONIC AVENGER" }
+      ],
+      "invisibleTraits": [{ "id": "Avenger", "name": "AVENGER" }],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -6204,7 +6396,10 @@
         { "id": "Military", "name": "MILITARY" },
         { "id": "PowerArmor", "name": "POWER ARMOR" }
       ],
-      "eventTraits": [{ "id": "Clubs", "isEvent": true, "name": "CLUBS" }]
+      "eventTraits": [
+        { "id": "Clubs", "isEvent": true, "name": "CLUBS" },
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
+      ]
     },
     {
       "id": "Wasp",
@@ -6230,6 +6425,9 @@
         { "id": "Tech", "name": "TECH" },
         { "id": "Blaster", "name": "BLASTER" },
         { "id": "PymTech", "name": "PYM TECH" }
+      ],
+      "eventTraits": [
+        { "id": "IronWilled", "isEvent": true, "name": "IRON-WILLED" }
       ]
     },
     {
@@ -7023,14 +7221,14 @@
   "meta": {
     "version": 1,
     "hashes": {
-      "events": "1c8856cbd57480373c99",
-      "drops": "c055964429c512d14d89",
-      "locs": "f1c972541312e36fb33c",
-      "nodes": "97bc5e3f58ec63a797d6",
-      "chars": "30a24c1989ff400cbaee",
-      "other": "5eb1fcd645bcddae1d04",
-      "all": "49e1a1ba49fbfbf74c98"
+      "events": "d11c44af674f8297808e",
+      "drops": "6a8a6d45a2de732cc56e",
+      "locs": "3bd617bde586829d0e9d",
+      "nodes": "458512ec4598d4c4db07",
+      "chars": "59d756f2830d5a27a46b",
+      "other": "880b809dcc6c17083584",
+      "all": "d662686717a7edd33693"
     },
-    "perTotal": 281
+    "perTotal": 286
   }
 }

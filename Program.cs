@@ -1,6 +1,6 @@
 ﻿using MsfBlitzOptimiser;
 
-var filename = $"{Directory.GetCurrentDirectory()}\\RosterExport_may_2022.json";
+var filename = $"{Directory.GetCurrentDirectory()}\\RosterExport_aug_2022.json";
 var roster = new Roster();
 roster.ParseRoster(filename);
 
@@ -18,8 +18,12 @@ roster.ParseRoster(filename);
 
 RemoveCharTags(roster, "Sersi");
 RemoveCharTags(roster, "Ikaris");
-AddTagToChar(roster, "Sersi", "Bio");
-AddTagToChar(roster, "Ikaris", "Bio");
+AddTagToChar(roster, "Sersi", "Cosmic");
+AddTagToChar(roster, "Ikaris", "Cosmic");
+
+RemoveCharTags(roster, "Deathpool");
+AddTagToChar(roster, "Deathpool", "City");
+
 AddTagToChar(roster, "Thanos", "BlackOrder");
 AddTagToChar(roster, "Namor", "XFactor");
 AddTagToChar(roster, "She-Hulk", "FantasticFour");
